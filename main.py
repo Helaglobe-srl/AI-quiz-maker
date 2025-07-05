@@ -78,7 +78,7 @@ def main():
     num_questions = st.number_input(
         "Number of questions to generate:",
         min_value=5,
-        max_value=30,
+        max_value=100,
         value=10,
         step=1,
         help="Select how many questions to generate for each quiz"
